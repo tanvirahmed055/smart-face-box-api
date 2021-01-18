@@ -14,9 +14,9 @@ const db = knex({
   client: 'pg',
   connection: {
     host : '127.0.0.1',
-    user : 'postgres',
-    password : 'test',
-    database : 'smart_face_box'
+    user : '', // Place your own database user name here
+    password : '', // Place your own database user password here
+    database : '' // Place your own created database name here
   }
 });
 
